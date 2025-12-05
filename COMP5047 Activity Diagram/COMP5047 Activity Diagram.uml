@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_OyBR0M35EfCqHbi46dLNEw" name="COMP5047 Activity Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_O0mEsM35EfCqHbi46dLNEw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_FSLz4M61EfCX9qPB7V__Cg" name="Search Societies Use Case" node="_AnZDQM62EfCX9qPB7V__Cg _C7fz4M62EfCX9qPB7V__Cg _HeSpoM62EfCX9qPB7V__Cg _VlIBcM62EfCX9qPB7V__Cg _XAhocM62EfCX9qPB7V__Cg _ececoM62EfCX9qPB7V__Cg _ySpV0M62EfCX9qPB7V__Cg _01IOwM64EfCX9qPB7V__Cg _5-swoM64EfCX9qPB7V__Cg _Ovp3EM65EfCX9qPB7V__Cg _VDpksM65EfCX9qPB7V__Cg _5be5YM65EfCX9qPB7V__Cg _rXRQYM68EfCX9qPB7V__Cg" group="__c5mEM61EfCX9qPB7V__Cg _FWnygM62EfCX9qPB7V__Cg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0hVa8M62EfCX9qPB7V__Cg" name="No" inPartition="_FWnygM62EfCX9qPB7V__Cg" target="_ySpV0M62EfCX9qPB7V__Cg" source="_ececoM62EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_82HCoM64EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg" target="_VlIBcM62EfCX9qPB7V__Cg" source="_C7fz4M62EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9umJ0M64EfCX9qPB7V__Cg" target="_HeSpoM62EfCX9qPB7V__Cg" source="_VlIBcM62EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-VKakM64EfCX9qPB7V__Cg" inPartition="_FWnygM62EfCX9qPB7V__Cg" target="_XAhocM62EfCX9qPB7V__Cg" source="_HeSpoM62EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_AVCAkM65EfCX9qPB7V__Cg" name="Yes" inPartition="_FWnygM62EfCX9qPB7V__Cg" target="_01IOwM64EfCX9qPB7V__Cg" source="_ececoM62EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FXyv0M65EfCX9qPB7V__Cg" inPartition="_FWnygM62EfCX9qPB7V__Cg" target="_ececoM62EfCX9qPB7V__Cg" source="_XAhocM62EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YWfOcM65EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg" target="_VlIBcM62EfCX9qPB7V__Cg" source="_VDpksM65EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dl4EcM65EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg" target="_Ovp3EM65EfCX9qPB7V__Cg" source="_5-swoM64EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_AsBu0M66EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg" target="_5be5YM65EfCX9qPB7V__Cg" source="_Ovp3EM65EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QLhisM66EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg" target="_C7fz4M62EfCX9qPB7V__Cg" source="_AnZDQM62EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hjGnoM68EfCX9qPB7V__Cg" target="_VDpksM65EfCX9qPB7V__Cg" source="_ySpV0M62EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ij6kYM68EfCX9qPB7V__Cg" target="_5-swoM64EfCX9qPB7V__Cg" source="_01IOwM64EfCX9qPB7V__Cg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tobasM68EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg" target="_rXRQYM68EfCX9qPB7V__Cg" source="_VDpksM65EfCX9qPB7V__Cg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="__c5mEM61EfCX9qPB7V__Cg" name="Student" node="_AnZDQM62EfCX9qPB7V__Cg _C7fz4M62EfCX9qPB7V__Cg _VlIBcM62EfCX9qPB7V__Cg _5-swoM64EfCX9qPB7V__Cg _Ovp3EM65EfCX9qPB7V__Cg _VDpksM65EfCX9qPB7V__Cg _5be5YM65EfCX9qPB7V__Cg _rXRQYM68EfCX9qPB7V__Cg" edge="_82HCoM64EfCX9qPB7V__Cg _YWfOcM65EfCX9qPB7V__Cg _dl4EcM65EfCX9qPB7V__Cg _AsBu0M66EfCX9qPB7V__Cg _QLhisM66EfCX9qPB7V__Cg _tobasM68EfCX9qPB7V__Cg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_FWnygM62EfCX9qPB7V__Cg" name="USU Student App" node="_HeSpoM62EfCX9qPB7V__Cg _XAhocM62EfCX9qPB7V__Cg _ececoM62EfCX9qPB7V__Cg _ySpV0M62EfCX9qPB7V__Cg _01IOwM64EfCX9qPB7V__Cg" edge="_0hVa8M62EfCX9qPB7V__Cg _-VKakM64EfCX9qPB7V__Cg _AVCAkM65EfCX9qPB7V__Cg _FXyv0M65EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_AnZDQM62EfCX9qPB7V__Cg" name="Student" outgoing="_QLhisM66EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_C7fz4M62EfCX9qPB7V__Cg" name="Start search societies" incoming="_QLhisM66EfCX9qPB7V__Cg" outgoing="_82HCoM64EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HeSpoM62EfCX9qPB7V__Cg" name="Search society database" incoming="_9umJ0M64EfCX9qPB7V__Cg" outgoing="_-VKakM64EfCX9qPB7V__Cg" inPartition="_FWnygM62EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_VlIBcM62EfCX9qPB7V__Cg" name="Enter search criteria/filters" incoming="_82HCoM64EfCX9qPB7V__Cg _YWfOcM65EfCX9qPB7V__Cg" outgoing="_9umJ0M64EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_XAhocM62EfCX9qPB7V__Cg" name="Filter results based on criteria" incoming="_-VKakM64EfCX9qPB7V__Cg" outgoing="_FXyv0M65EfCX9qPB7V__Cg" inPartition="_FWnygM62EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_ececoM62EfCX9qPB7V__Cg" name="Societies found?" incoming="_FXyv0M65EfCX9qPB7V__Cg" outgoing="_0hVa8M62EfCX9qPB7V__Cg _AVCAkM65EfCX9qPB7V__Cg" inPartition="_FWnygM62EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ySpV0M62EfCX9qPB7V__Cg" name="Display no matches" incoming="_0hVa8M62EfCX9qPB7V__Cg" outgoing="_hjGnoM68EfCX9qPB7V__Cg" inPartition="_FWnygM62EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_01IOwM64EfCX9qPB7V__Cg" name="Retrieve filtered societies" incoming="_AVCAkM65EfCX9qPB7V__Cg" outgoing="_ij6kYM68EfCX9qPB7V__Cg" inPartition="_FWnygM62EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5-swoM64EfCX9qPB7V__Cg" name="Recieve search results" incoming="_ij6kYM68EfCX9qPB7V__Cg" outgoing="_dl4EcM65EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Ovp3EM65EfCX9qPB7V__Cg" name="View society details" incoming="_dl4EcM65EfCX9qPB7V__Cg" outgoing="_AsBu0M66EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_VDpksM65EfCX9qPB7V__Cg" name="Display no results error" incoming="_hjGnoM68EfCX9qPB7V__Cg" outgoing="_YWfOcM65EfCX9qPB7V__Cg _tobasM68EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_5be5YM65EfCX9qPB7V__Cg" name="" incoming="_AsBu0M66EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_rXRQYM68EfCX9qPB7V__Cg" name="" incoming="_tobasM68EfCX9qPB7V__Cg" inPartition="__c5mEM61EfCX9qPB7V__Cg"/>
+  </packagedElement>
+</uml:Model>

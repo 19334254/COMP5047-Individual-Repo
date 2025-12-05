@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tYkD0K8tEfCiUpUeFFbvkg" name="COMP5047 Use Case Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_tkwFsK8tEfCiUpUeFFbvkg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_8AdhUK8tEfCiUpUeFFbvkg" name="USU Student App">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5WAD8Mq9EfC_G_2GV80QfQ" name="Register to USU">
+      <extend xmi:type="uml:Extend" xmi:id="_iUkWYMrCEfC_G_2GV80QfQ" extendedCase="_3pjTwMq-EfC_G_2GV80QfQ" extensionLocation="_iUk9cMrCEfC_G_2GV80QfQ">
+        <name xsi:nil="true"/>
+      </extend>
+      <include xmi:type="uml:Include" xmi:id="_mfLVoMrCEfC_G_2GV80QfQ" addition="_HobgYMrBEfC_G_2GV80QfQ">
+        <name xsi:nil="true"/>
+      </include>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-c6TYMq9EfC_G_2GV80QfQ" name="Search Societies"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_naN-YMq-EfC_G_2GV80QfQ" name="Subscribe to Society">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ovK_IMq-EfC_G_2GV80QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3pjTwMq-EfC_G_2GV80QfQ" name="Upload supporting documents">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_71Jxgcq-EfC_G_2GV80QfQ"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_iUk9cMrCEfC_G_2GV80QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-9YtwMq-EfC_G_2GV80QfQ" name="Join Society">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_CLC8kMq_EfC_G_2GV80QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_G_GhcMq_EfC_G_2GV80QfQ" name="Quit Society">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_zHEDMMrCEfC_G_2GV80QfQ">
+        <body></body>
+      </ownedComment>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_MgK9Ucq_EfC_G_2GV80QfQ"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_iLnWEMq_EfC_G_2GV80QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JM_VUMq_EfC_G_2GV80QfQ" name="Unsubscribe from Society">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_L3fzwMq_EfC_G_2GV80QfQ"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_hx6cocq_EfC_G_2GV80QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mFnGcMq_EfC_G_2GV80QfQ" name="Send message to Society"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9gDiMMrAEfC_G_2GV80QfQ" name="Search events">
+      <include xmi:type="uml:Include" xmi:id="_MUVZYMrCEfC_G_2GV80QfQ" addition="_MhhWQMrBEfC_G_2GV80QfQ">
+        <name xsi:nil="true"/>
+      </include>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HobgYMrBEfC_G_2GV80QfQ" name="Validate registration">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_i_Y1AMrCEfC_G_2GV80QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MhhWQMrBEfC_G_2GV80QfQ" name="View event details"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XfKvkMrBEfC_G_2GV80QfQ" name="Join event"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_eiTbIMrBEfC_G_2GV80QfQ" name="Subscribe to event"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_AE2XAMq9EfC_G_2GV80QfQ" name="Student">
+    <generalization xmi:type="uml:Generalization" xmi:id="_8WW5wMrBEfC_G_2GV80QfQ" general="_JM_VUMq_EfC_G_2GV80QfQ"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_AcvgUMrCEfC_G_2GV80QfQ" general="_5WAD8Mq9EfC_G_2GV80QfQ"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_Bi53IMrCEfC_G_2GV80QfQ" general="_naN-YMq-EfC_G_2GV80QfQ"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_CMWcwMrCEfC_G_2GV80QfQ" general="_-9YtwMq-EfC_G_2GV80QfQ"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_C2jQUMrCEfC_G_2GV80QfQ" general="_G_GhcMq_EfC_G_2GV80QfQ"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_Dk8nYMrCEfC_G_2GV80QfQ" general="_-c6TYMq9EfC_G_2GV80QfQ"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_EFDDwMrCEfC_G_2GV80QfQ" general="_9gDiMMrAEfC_G_2GV80QfQ"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_uhDr8MrDEfC_G_2GV80QfQ" general="_mFnGcMq_EfC_G_2GV80QfQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WXlKgMrDEfC_G_2GV80QfQ" memberEnd="_WXlxksrDEfC_G_2GV80QfQ _WXlxk8rDEfC_G_2GV80QfQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WXlxkMrDEfC_G_2GV80QfQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WXlxkcrDEfC_G_2GV80QfQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WXlxksrDEfC_G_2GV80QfQ" name="" type="_XfKvkMrBEfC_G_2GV80QfQ" association="_WXlKgMrDEfC_G_2GV80QfQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WXlxk8rDEfC_G_2GV80QfQ" name="" type="_MhhWQMrBEfC_G_2GV80QfQ" association="_WXlKgMrDEfC_G_2GV80QfQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YdfuIMrDEfC_G_2GV80QfQ" memberEnd="_YdgVMsrDEfC_G_2GV80QfQ _YdgVM8rDEfC_G_2GV80QfQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YdgVMMrDEfC_G_2GV80QfQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YdgVMcrDEfC_G_2GV80QfQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YdgVMsrDEfC_G_2GV80QfQ" name="" type="_eiTbIMrBEfC_G_2GV80QfQ" association="_YdfuIMrDEfC_G_2GV80QfQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YdgVM8rDEfC_G_2GV80QfQ" name="" type="_MhhWQMrBEfC_G_2GV80QfQ" association="_YdfuIMrDEfC_G_2GV80QfQ"/>
+  </packagedElement>
+</uml:Model>
